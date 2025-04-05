@@ -4358,3 +4358,11 @@ input, select, textarea {
 					}
 
 	}
+
+		/* Newsletter */
+
+		.newsletter {
+			max-width: fit-content; 
+			margin-left: auto; 
+			margin-right: auto;
+		}
