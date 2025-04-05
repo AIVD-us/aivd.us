@@ -35,8 +35,22 @@
 						</script>
 						<script src="https://substackapi.com/widget.js" async></script>
 					
-	
-	
+                        <div id="substack-feed-embed"></div>
+                            <script>
+                            window.SubstackFeedWidget = {
+                                substackUrl: "aivd.substack.com",
+                                posts: 1,
+                                hidden: ["image", "author", "premium"],
+                                colors: {
+                                primary: "#F6FF00",
+                                secondary: "#FFFFFF",
+                                background: "#000000",
+                                }
+                            };
+                            </script>
+
+                        <script src="https://substackapi.com/embeds/feed.js" async></script>
+                    </div>      	
 			</div>	
 					</div>
 				</section>
